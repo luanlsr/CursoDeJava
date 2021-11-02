@@ -25,6 +25,8 @@ public class IfElseDesafio {
             System.out.println(6);
         } else if (dia.equalsIgnoreCase("Sábado")) {
             System.out.println(7);
+        } else {
+            System.out.println("Dia inválido!");
         }
 
 //        String diaDaSemana = JOptionPane.showInputDialog("Qual o dia de semana?");
